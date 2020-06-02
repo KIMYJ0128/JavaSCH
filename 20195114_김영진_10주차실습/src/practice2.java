@@ -37,6 +37,6 @@ public class practice2{
 					out.close();
 				}
 		}
-		System.out.println("동작시간: "+(end-start)/1000+"."+(end-start)%1000+"(s)");
+		System.out.println("동작시간: "+(end-start)/1000+".."+(end-start)%1000+"(s)");
 	}
 }

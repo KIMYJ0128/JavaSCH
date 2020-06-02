@@ -18,7 +18,7 @@ public class practice1 {
 		inst = tmp.split(" ")[0].toUpperCase();
 		if (inst.equals("COPY")) {
 			try {
-				in = new FileReader(tmp.split("copy 9week.mp4 p1.mp4")[1]);
+				in = new FileReader(tmp.split(" ")[1]);
 				out = new FileWriter(tmp.split(" ")[2]); 
 				
 				start = System.currentTimeMillis();
